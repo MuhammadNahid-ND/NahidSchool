@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+  <title>Kamarjuri Yousuf Ali High School</title>
+  <style>
+    /*headerheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheaderheader*/
+    section {
+      background-image: url(img1.jpg);
+      width: 100%;
+      height: 370px;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+
+    }
+
+    section h1 {
+      font-size:18.5pt;
+      width: 95%;
+      color: white;
+      text-align: center;
+    font-family: 'Sriracha','Oswald','Potta One','Londrina Solid', cursive;
+    
+      margin: 18px auto;
+      text-shadow: 4px 4px 1px black/-4px -4px 1px black;
+      animation: head 4s ease-in-out 1s infinite;
+    }
+
+    @keyframes head {
+      20% {
+        color:#FFBD65;
+      }
+
+      70% {
+        color:#06F7FF;
+      }
+
+
+    }
+
+    section h2 {
+      color: white;
+      text-align: center;
+      padding-top: 40px;
+      font-size: 23pt;
+    }
+
+    section p {
+      color: white;
+      text-align: center;
+      margin: 0 auto;
+      padding:8px auto;
+      font-size:9pt;
+      font-family: 'Potta One', 'Oswald';
+      width: 87%;
+    }
+
+    svg {
+      width: 100%;
+      margin-top: -26.4%;
+      position: relative;
+      max-height: 350px;
+    }
+
+    .information {
+      text-align: center;
+      font-size: 11pt;
+      color: #0CA4BE;
+      width: 70%;
+      justify-content: center;
+      align-content: center;
+      margin: 30px auto;
+      font-family: 'Sriracha', cursive;
+    }
+
+    /*menumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenumenu*/
+    .dropdown {
+      margin: 0 auto;
+    }
+
+    .dropdown button {
+      display: block;
+      justify-content: center;
+      align-content: center;
+      height: 40px;
+      font-family: 'Potta One';
+      width: 40%;
+      margin: 0 auto;
+      background: transparent;
+      border: .6px solid white;
+    }
+
+    .dropdown button:hover {
+      background: linear-gradient(45deg, #2812FF75, #FF12DA78, #12FFC8);
+    }
+
+    .dropdown ul {
+
+      border: .7px solid white;
+      background: linear-gradient(45deg, yellow, #0CC0FF);
+      /* background-color: yellow;*/
+
+    }
+
+    .dropdown li {
+      border: .7px solid white;
+      font-size: 11pt;
+      color: white;
+      font-family: 'Oswald', 'Potta One',italic;
+      text-align: center;
+    }
+
+    /*table  tabletabletabletabletabletabletabletabletabletabletabletabletabletabletabletabletabletabletabletabletable*/
+    body{
+     scroll-behaviour:smooth;
+      min-width: 376.9px;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+
+    thead th {
+      border-bottom: .7px solid #FF9200;
+      border-radius: 50%;
+      text-align: center;
+      font-family: 'Oswald',sans-serif;
+    }
+
+    thead th ol {
+      text-align: center;
+     font-family: 'Oswald',sans-serif;
+    }
+
+    tbody tr {
+      text-align: center;
+        font-family: 'Oswald',sans-serif;
+    }
+
+    tbody tr ol {
+      text-align: center;
+     font-family: 'Oswald',sans-serif;
+    }
+
+    .table h2 {
+      color: #DC7E00;
+font-family: 'Sriracha','Oswald','Potta One';
+      text-align: center;
+      margin-top: 40px;
+      border-bottom: .8 solid #FF9B00;
+    }
+
+    table {
+      margin: 30px auto;
+      justify-content: center;
+    }
+
+    /*iconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsicons*/
+
+
+    .icons .fa {
+
+
+      padding: 10px;
+      font-size: 20px;
+      color: white;
+
+      text-align: center;
+      text-decoration: none;
+      border-radius: 38%;
+      margin: 20px auto;
+      animation: icons 5s ease-in infinite;
+    }
+
+    @keyframes icons {
+      30% {
+        color: #247D91FC;
+
+      }
+
+      60% {
+        color: #247D91FC;
+      }
+
+      90% {
+        color: #247D91FC;
+      }
+    }
+
+    .icons {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+
+    }
+
+    /*iconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsiconsicons*/
+
+    .ico {
+      margin-top: -15px;
+      background-color: #FF840B;
+    }
+
+    .ico h3 {
+      font-size: 12pt;
+      color: white;
+      text-align: center;
+    }
+
+    .icoo {
+      background-color: #FF270B;
+      border-radius: 0 0 10px 10px;
+    }
+
+    .icoo .fa {
+      padding: 10px;
+      font-size: 20px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      margin: 5px auto;
+
+      transition: all;
+
+    }
+
+    .icoo.fa:hover {
+      color: #FF1919;
+
+    }
+
+    .icoo {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .icoo .fa-facebook {
+
+      padding: 10px 14px;
+    }
+
+    .event h2 {
+      justify-content: center;
+      font-size: 12pt;
+      text-align: center;
+      width: 50%;
+      border-bottom: .7px solid #FF6B00;
+      border-radius: 40%;
+      margin: 9px auto;
+      color: #FF9B00;
+    }
+
+    .event p {
+      font-size: 10pt;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      color: #0F777F;
+    }
+
+    .event {
+      font-family:'Londrina Solid';
+      margin: 30px auto;
+    }
+
+    .information span {
+      color: #FF0A0A;
+    }
+
+    .table h2 {
+      border-bottom: 5px solid #FF9C02;
+      width: 60%;
+      border-radius: 50%;
+      text-align: center;
+      margin: 30px auto;
+    }
+
+    .developer {
+      border: .6px solid white;
+
+      width: 92%;
+      margin: 5px auto;
+      border-radius: 10px;
+      background: linear-gradient(45deg, #00D098D9, #007AD0D9);
+    }
+
+    .developer h2 {
+      font-size: 13pt;
+      text-align: center;
+      margin-top: 8px;
+      font-family: cursive;
+      color: white;
+    }
+
+    .developer p {
+      font-size: 11pt;
+      font-family: cursive;
+      color: white;
+    }
+
+    .prp {
+      height: 80px;
+      width: 80px;
+
+      border-radius: 50%;
+      background-image: url(prp.png);
+      background-size: 80px 80px;
+      float: left;
+      shape-outside: circle();
+      margin: 10px;
+    }
+
+    .location {
+      background-color: #FFFCF0;
+      margin: 17px auto;
+      margin-top: 40px;
+      width: 60%;
+      font-family: 'Potta One';
+      text-align: center;
+      border-radius: 13px;
+      box-shadow: 5px 5px 5px #A5A5A5, -5px -5px 10px #E2E2E2;
+    }
+
+    .location h4 {
+      font-size: 12pt;
+      border-bottom: .7px solid blue;
+      width: 60%;
+      margin: 6px auto;
+      padding-top: 20px;
+    }
+
+    .location button {
+      width: 65%;
+      background: linear-gradient(90deg, #5866FF, #FF58D2);
+      margin: 16px auto;
+      border-radius: 12px;
+      height: 45px;
+      border: .4px solid;
+    }
+    .location button a{
+      text-decoration:none;
+      color:white;
+    }
+    .map iframe{
+      margin:20px auto;
+    }
+   html{
+     scroll-behavior:smooth;
+   } 
+  </style>
+</head>
+
+<body>
+  <section>
+    <h2><strong>﷽</strong></h2>
+    <h1><strong><span>Kamarjuri </span>Yousuf Ali <span>High School</span></strong></h1>
+    <p>Read! In the Name of your Lord, Who has created.
+    .(The Holy Quran,Sura Alaq :Verse 1-5)</p>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="index.html">Menu</a></li>
+        <li><a class="dropdown-item" href="#">Registration</a></li>
+        <li><a class="dropdown-item" href="#">Results</a></li>
+        <li><a class="dropdown-item" href="#">Location</a></li>
+        <li><a class="dropdown-item" href="teacher.html">Teachers</a></li>
+   
+        <li><a class="dropdown-item" href="#">Other Workers</a></li>
+        <li><a class="dropdown-item" href="#event">Events</a></li>
+        <li><a class="dropdown-item" href="#notice">Notices</a></li>
+      </ul>
+    </div>
+    <div class="icons">
+      <!-- Add icon library -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Add font awesome icons -->
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    </div>
+  </section>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="white" fill-opacity="1" d="M0,96L8,106.7C16,117,32,139,48,176C64,213,80,267,96,272C112,277,128,235,144,202.7C160,171,176,149,192,128C208,107,224,85,240,106.7C256,128,272,192,288,229.3C304,267,320,277,336,261.3C352,245,368,203,384,170.7C400,139,416,117,432,122.7C448,128,464,160,480,197.3C496,235,512,277,528,293.3C544,309,560,299,576,266.7C592,235,608,181,624,181.3C640,181,656,235,672,213.3C688,192,704,96,720,80C736,64,752,128,768,154.7C784,181,800,171,816,176C832,181,848,203,864,218.7C880,235,896,245,912,234.7C928,224,944,192,960,192C976,192,992,224,1008,234.7C1024,245,1040,235,1056,224C1072,213,1088,203,1104,202.7C1120,203,1136,213,1152,218.7C1168,224,1184,224,1200,186.7C1216,149,1232,75,1248,69.3C1264,64,1280,128,1296,170.7C1312,213,1328,235,1344,250.7C1360,267,1376,277,1392,234.7C1408,192,1424,96,1432,48L1440,0L1440,320L1432,320C1424,320,1408,320,1392,320C1376,320,1360,320,1344,320C1328,320,1312,320,1296,320C1280,320,1264,320,1248,320C1232,320,1216,320,1200,320C1184,320,1168,320,1152,320C1136,320,1120,320,1104,320C1088,320,1072,320,1056,320C1040,320,1024,320,1008,320C992,320,976,320,960,320C944,320,928,320,912,320C896,320,880,320,864,320C848,320,832,320,816,320C800,320,784,320,768,320C752,320,736,320,720,320C704,320,688,320,672,320C656,320,640,320,624,320C608,320,592,320,576,320C560,320,544,320,528,320C512,320,496,320,480,320C464,320,448,320,432,320C416,320,400,320,384,320C368,320,352,320,336,320C320,320,304,320,288,320C272,320,256,320,240,320C224,320,208,320,192,320C176,320,160,320,144,320C128,320,112,320,96,320C80,320,64,320,48,320C32,320,16,320,8,320L0,320Z"></path>
+  </svg>
+  <div class="information">
+    <span>Kamarjuri Yousuf Ali High School</span>is situated in 1966. It is a 
+    <span>secondary level high school</span>.Every year it ranks in board for its mindblowing result . Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, laboriosam.<span>2nd</span> in Dhaka Board .
+  </div>
+  <div class="slider">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="5.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="4d.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="location">
+    <h4>Kamarjuri</h4>
+    <h4>Gacha</h4>
+    <h4>Sign Board</h4>
+    <h4>Gazipur</h4>
+    <button><a href="https://www.google.com/maps/place/Kamarjuri+Yousuf+Ali+High+School,+Kamarjuri/@23.955793,90.3749425,14z/data=!4m2!3m1!1s0x3755dcab49bc3fd5:0x333900387090a852?force=qVTs2FOxxTmHHo79-pwa&source=mlapk">Google Map</a></button>
+  </div>
+<!--  <div class="map">
+<iframe src="https://www.google.com/maps/place/Kamarjuri+Yousuf+Ali+High+School,+Kamarjuri/@23.955793,90.3749425,14z/data=!4m2!3m1!1s0x3755dcab49bc3fd5:0x333900387090a852?force=qVTs2FOxxTmHHo79-pwa&source=mlapk" frameborder="0"></iframe>-->
+  </div>
+  <div class="table">
+    <h2>Introduction</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Exams</th>
+          <th>Department s</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <ol>JSC</ol>
+            <ol>SSC</ol>
+          </td>
+          <td>
+            <ol>Science</ol>
+            <ol>Commerce</ol>
+            <ol>Humanities</ol>
+          </td>
+      </tbody>
+    </table>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th>Shift</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Separate</td>
+          <td>
+            <ol>Morning</ol>
+            <ol>Day</ol>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="event" id="event">
+    <h2>Events</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni hic pariatur, nostrum laboriosam dolorum est amet consequatur facere, asperiores alias.</p>
+  </div>
+  <div class="event" id="notice">
+    <h2>Notice</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, tenetur!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui accusantium voluptatum aliquid illo voluptas ex perferendis veniam molestiae facere ipsum commodi nobis architecto, non nisi quaerat impedit earum laborum! Placeat.</p>
+  </div>
+  <div class="contact">
+  </div>
+  <div class="developer">
+    <div class="prp"></div>
+    <h2>Nahid Hassan</h2>
+    <p>The Web Developer Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, quas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint! </p>
+    <div class="icoo">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Add font awesome icons -->
+      <a href="https://www.facebook.com/nahid.mustakim.54" class="fa fa-facebook"></a>
+      <a href="https://mobile.twitter.com/NahidMustakim1" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+  </div>
+  </div>
+  <!-- Optional JavaScript; choose one of the two! -->
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
